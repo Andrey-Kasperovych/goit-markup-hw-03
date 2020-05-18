@@ -427,6 +427,10 @@ span{color: var(--accent);}
 
 /* Portfolio */
 
+.page-header.portfolio {
+    margin-bottom: 100px;
+}
+
 .tech-button {
     display: flex;
     list-style: none;
