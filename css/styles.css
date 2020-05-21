@@ -222,6 +222,9 @@ span{color: var(--accent);}
 }
 
 .work-list .item img {
+    display: block;
+    max-width: 100%;
+    height: auto;
     width: 370px;
 }
 
@@ -321,7 +324,7 @@ span{color: var(--accent);}
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
-    /*outline: 1px solid tomato;*/
+    outline: 1px solid tomato;
     }
 
 .container {
@@ -329,7 +332,7 @@ span{color: var(--accent);}
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    /*outline: 1px solid teal;*/
+    outline: 1px solid teal;
 
 }
 
@@ -350,11 +353,11 @@ span{color: var(--accent);}
  .client .customers-list {
     display: flex;
     list-style: none;
-    width: 1200px;
 }    
 
 .customers-list .item {
-    width: 175px;
+    text-align: center;
+    width: 170px;
     margin-right: 30px;
 }
 
