@@ -126,12 +126,13 @@ span{color: var(--accent);}
     /*margin-bottom: 94px;*/
     text-align: center;
     background-color: var(--primary-text-color);
+    padding-top: 200px;
+    padding-bottom: 200px;
     }
     
 
 .hero-title{
            margin-top: 0;
-           margin-bottom: 0;
            color: #ffffff;
            font-weight: 900;
            font-size: 44px;
@@ -139,8 +140,10 @@ span{color: var(--accent);}
            text-align: center;
            letter-spacing: 0.06em;
            text-transform: uppercase;
-           margin-bottom: 46px;
-        }
+           width: 646px;
+           margin-right: auto;
+           margin-left: auto;
+}
 
  .hero-link{
             background-color: var(--accent);
@@ -536,9 +539,10 @@ span{color: var(--accent);}
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;  
-    width: 322px; 
+    /*padding-left: 24px;*/
+    /*width: 322px; 
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;*/
     margin-top: 0;
     margin-bottom: 4px;
 }
@@ -547,12 +551,18 @@ span{color: var(--accent);}
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;  
-    width: 322px;  
+    /*padding-left: 24px;*/
+    /*width: 322px;  
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;*/
     margin-top: 0;
     margin-bottom: 20px;
 }
+
+.text-under-images {
+    padding-left: 24px;
+}
+
 
 .tehnokryaki .text{background-color: var(--accent);
                    color: #ffffff;
