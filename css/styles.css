@@ -365,8 +365,10 @@ span{color: var(--accent);}
     margin-right: 0;
 }
 
-.footer{
-        background-color: #2f303a;}
+.footer{ 
+        padding-top: 48px;
+        background-color: #2f303a;
+    }
 
 .footer-verh {
     display: flex;
@@ -378,7 +380,7 @@ span{color: var(--accent);}
     align-items: flex-start;
 }      
 
-.logadress {margin-top: 48px;}
+/*.logadress {margin-top: 48px;}*/
 
 .footer .logo {
     display: block;
@@ -396,7 +398,9 @@ span{color: var(--accent);}
     margin-bottom: 10px;
 }
 
-.address a{color: rgba(255, 255, 255, 0.6);}
+.address a{
+    display: block;
+    color: rgba(255, 255, 255, 0.6);}
 
 .signecher{
     margin-top: 3px;
@@ -404,12 +408,12 @@ span{color: var(--accent);}
 
 .rassilka {
     margin-left: auto;
-    margin-top: 56px;
+    
 }
 
 .connect-glav {
     margin-left: 69px;
-    margin-top: 56px;
+    
 }
 
 .connect-list {
@@ -531,8 +535,10 @@ span{color: var(--accent);}
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
-    letter-spacing: 0.06em;
-    margin-left: 34px;
+    letter-spacing: 0.06em;  
+    width: 322px; 
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 0;
     margin-bottom: 4px;
 }
@@ -540,8 +546,10 @@ span{color: var(--accent);}
 .tehnokryaki p{color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.9;
-    letter-spacing: 0.03em;
-    margin-left: 34px;
+    letter-spacing: 0.03em;  
+    width: 322px;  
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 0;
     margin-bottom: 20px;
 }
